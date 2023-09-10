@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors Game</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <button class="btn btn-primary btn-choice" onclick="playGame('rock')">Rock</button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary btn-choice" onclick="playGame('paper')">Paper</button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary btn-choice" onclick="playGame('scissors')">Scissors</button>
+            </div>
+        </div>
+        <div class="choice-images">
+            <img src="rock.jpg" alt="Rock" onclick="playGame('rock')">
+            <img src="paper.png" alt="Paper" onclick="playGame('paper')">
+            <img src="scissors.jpg" alt="Scissors" onclick="playGame('scissors')">
+        </div>
+        <div id="result"></div>
+        <div id="score"></div>
+        <div id="profile"></div>
+        <div id="btc-converter" class="btc-anim"></div>
+        <div id="btc-count"></div>
+        <div id="btc-info">
+            <img src="eth.png" alt="ETH">
+            ETH is a digital currency.
+        </div>
+    </div>
+
+</body>
+
+</html>
